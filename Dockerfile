@@ -47,6 +47,8 @@ RUN apt-get update -qq && \
         texlive-latex-base \
         texlive-latex-extra \
         zlib1g-dev && \
+        python-tk && \
+        python-imaging-tk && \
         python3-tk && \
     apt-get clean && \
     rm -rf /var/lib/apt/lists/*
